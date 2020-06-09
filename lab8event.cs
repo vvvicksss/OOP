@@ -43,6 +43,10 @@ namespace laba8
     }
      public class Program
      {
+         private static void DisplayMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
          static public void Main(string[] args)
          {
              Car car = new Car(true, 20);
